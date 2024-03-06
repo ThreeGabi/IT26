@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background-image: url(/jerrienor/images/pexels-engin-akyurt-1435752.jpg);
+    background-attachment: fixed;
+}
+
+
+.wrapper {
+    max-width: 90%;
+    min-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: wheat;
+}
+
+.home-hero {
+    background-image: url(/jerrienor/images/better-home.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 700px;
+    background-position: 0% 100%;
+}
+
+#uno {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-position: 0 100%;
+}
+
+.footer {
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    height: 245px;
+}
+
+.home-title {
+    background-color: rgba(127, 255, 212, 0.473);
+}
+
+.home-title h1{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 120px;
+    color: aliceblue;
+    text-shadow: 5px 5px black;
+}
+
+.home-title p{
+    padding: 20px;
+    font-family: "Tangerine", cursive;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.headings-hero {
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 -3px;
+    background-color: rgb(106, 106, 236);
+    box-shadow: 5px 5px 3px 0px black;
+}
+
+header{
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 -3px;
+}
+
+.headings {
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 -3px;
+    background-color: rgb(106, 106, 236);
+    box-shadow: 5px 5px 3px 0px black;
+}
+
+.logo{
+    width: 100px;
+    float: left;
+    padding-left: 10px;
+}
+
+.logo-hero{
+    display: none;
+    text-align: center;
+}
+
+
+nav {
+    width: 100%;
+    max-width: 100%;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    background-color: rgb(106, 106, 236);
+    height: 62px;
+}
+
+nav a {
+    font-family: "Tangerine", cursive;
+    text-decoration: none;
+    padding: 1em 3em 1em 3em;
+    display: inline-block;
+    font-size: larger;
+    background-color: rgb(106, 106, 236);
+}
+
+nav a:hover {
+    color: rgb(39, 51, 61);
+    background-color: aqua;
+    transition: 0.5s;
+    font-weight: 200em;
+}
+
+.arrange {
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.arrange a {
+    text-decoration: none;
+    color: black;
+}
+
+.arrange a p {
+    padding: 40px;
+}
+
+.card {
+    margin: 0.5em 2em 0.5em 2em;
+    display: block;
+    padding: 0.5em;
+    box-shadow: 1px 2px 2px 1px black;
+    text-decoration: none;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: rgba(127, 255, 212, 0.418);
+}
+
+.card p{
+    font-family: "Tangerine", cursive;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card h2{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+}
+
+.card-cont h2 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: xx-large;
+    text-decoration: none;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+}
+
+
+.card-bod-1 img {
+    float: left;
+    height: 200px;
+    width: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px black solid;
+}
+
+.card-bod-2 img {
+    float: right;
+    height: 200px;
+    width: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px black solid;
+}
+
+.footer-social a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer-links{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Tangerine", cursive;
+}
+
+.footer-links a:hover{
+    transition: 0.5s;
+    background-color: aliceblue;
+    color: black;
+}
+
+.footer-logo{
+    width: 100%;
+    text-align: center;
+}
+
+/*Cottage*/
+
+.listing{
+ margin: 100px;
+ text-align: center;
+}
+
+.card-cot {
+    border-radius: 14px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0.5em;
+    width: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.card-cot:hover {
+    max-width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-cot img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: 0% center;
+    
+}
+
+.card-title {
+    padding: 0.5em 1.3em 0.5em 0.7em;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+.card-title a {
+    color: #0a82c3;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 0px 1.3em 1.3em 1.3em;
+    height: 150px;
+    overflow: auto;
+}
+
+.card p {
+    display: inline;
+}
+
+/*Room Rates*/
+
+.cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 20px;
+}
+
+.actives{
+    margin: 100px;
+}
+
+.card-act {
+    margin: 0.5em 2em 0.5em 2em;
+    display: block;
+    padding: 0.5em;
+    box-shadow: 1px 2px 2px 1px black;
+    text-decoration: none;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: rgba(127, 255, 212, 0.418);
+}
+
+.card-bod-1-act img {
+    float: left;
+    height: 450px;
+    width: 450px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px black solid;
+}
+
+.card-bod-1-act h2{
+    padding-top: 70px;
+    font-family: "Tangerine", cursive;
+}
+
+.card-bod-1-act p {
+    font-family: "Tangerine", cursive;
+}
+
+.card-bod-2-act img {
+    float: right;
+    height: 450px;
+    width: 450px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px black solid;
+}
+
+.card-bod-2-act h2{
+    padding-top: 70px;
+    font-family: "Tangerine", cursive;
+}
+
+.card-bod-2-act p{
+    font-family: "Tangerine", cursive;
+}
+
+@media screen and (max-width: 800px) {
+    table {
+        width: 200px;
+        margin: 10px;
+    }
+}
+
+th,tr {
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    background-color: rgba(46, 45, 87, 0.2);
+    color: black;
+    font-family: "Tangerine", cursive;
+    text-align: center;
+    border: 1px black solid;
+}
+
+th {
+    font-family: "Tangerine", cursive;
+    text-align: center;
+    border: 1px black solid;
+}
+
+thead {
+    th {
+        font-family: "Tangerine", cursive;
+        background-color: rgb(48, 143, 207);
+    }
+}
+
+/*Forms*/
+
+.form{
+    background-color: rgba(240, 248, 255, 0.438);
+    padding: 200px;
+}
+
+.form label{
+    padding-left: 20px;
+}
+
+.form p {
+    font-family: "Tangerine", cursive;
+}
+
+.form span{
+    font-family: "Tangerine", cursive;
+}
+
+.form button{
+    font-family: "Tangerine", cursive;
+}
+
+@media only screen and (max-width: 800px) {
+    .home-hero{
+        display: none;
+    }
+
+    .logo-hero{
+        display: block;
+    }
+
+    .headings-hero{
+        display: inline;
+    }
+
+    .headings-hero header{
+        height: 140px;
+    }
+    
+    nav {
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        background-color: aliceblue;
+        height: 80px;
+    }
+
+    nav a {
+        padding: 5px;
+        display: block;
+    }
+
+    #uno{
+        display: none;
+    }
+
+    .wrapper {
+        padding-top: 150px;
+    }
+
+    .arrange{
+        margin-top: 110px;
+    }
+
+    .card-bod-1 h2{
+        padding-top: 30px;
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+
+    .card-bod-2 h2{
+        padding-top: 30px;
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+
+    .card-bod-1 p {
+        display: none;
+    }
+
+    .card-bod-2 p {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .headings-hero img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .listing{
+        padding-top: 100px;
+    }
+
+    .cont{
+        margin-top: 130px;
+    }
+
+    .cont-form{
+        margin-top: 200px;
+        text-align:left;
+    }
+
+    .form{
+        margin: 40px;
+        padding: 12px;
+    }
+
+    .footer .CO{
+        padding-left:1px;
+    }
+}
+
+@media only screen and (min-width:800px) {
+
+}
