@@ -6,7 +6,7 @@
 
 body {
     font-family: Calibri, Helvetica, sans-serif;
-    background-image: url(/jerrienor/images/pexels-engin-akyurt-1435752.jpg);
+    background-image: url(../images/pexels-engin-akyurt-1435752.jpg);
     background-attachment: fixed;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .home-hero {
-    background-image: url(/jerrienor/images/better-home.png);
+    background-image: url(../images/better-home.png);
     background-repeat: no-repeat;
     background-size:cover;
     height: 700px;
